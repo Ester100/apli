@@ -3,26 +3,34 @@ Create tabs with an icon and label, using the tabs-positive style.
 Each tab's child <ion-nav-view> directive will have its own
 navigation history that also transitions its views in and out.
 -->
-<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+<ion-tabs class="tabs-icon-top tabs-color-active-negative">
 
   <!-- Dashboard Tab -->
-  <ion-tab title="VIDEO" icon-off="ion-play" icon-on="ion-play" href="ion-play">
+  <ion-tab title="VIDEO" icon-off="ion-play" icon-on="ion-play" href="#/tab/dash">
     <ion-nav-view name="tab-dash"></ion-nav-view>
   </ion-tab>
 
   <!-- Chats Tab -->
-  <ion-tab title="TABLA NUTRICIONAL" icon-off="ion-pizza" icon-on="ion-pizza" href="ion-pizza">
+  <ion-tab title="TABLA NUTRICIONAL" icon-off="ion-pizza" icon-on="ion-pizza" href="#/tab/chats">
     <ion-nav-view name="tab-chats"></ion-nav-view>
   </ion-tab>
 
   <!-- Account Tab -->
-  <ion-tab title="ADN" icon-off="ion-person-stalker" icon-on="ion-person-stalker" href="ion-person-stalker">
-    <ion-nav-view name="tab-accout"></ion-nav-view>
+  <ion-tab title="ADN" icon-off="ion-person-stalker" icon-on="ion-person-stalker" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view>
   </ion-tab>
 
    <!-- Infografia Tab -->
-  <ion-tab title="INFOGRAFIA" icon-off="ion-edit" icon-on="ion-edit" href="ion-edit">
+  <ion-tab title="INFOGRAFIA" icon-off="ion-edit" icon-on="ion-edit" href="#/tab/infografia">
     <ion-nav-view name="tab-infografia"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>
+
+   <!-- Juego Tab -->
+  <ion-tab title="JUEGO" icon-off="ion-bug" icon-on="ion-bug" href="#/tab/juego">
+    <ion-nav-view name="tab-juego"></ion-nav-view>
   </ion-tab>
 
 

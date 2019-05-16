@@ -1,8 +1,8 @@
 /* Empty. Add your own CSS if you like */
 .Texto{
 	font-size:bolder;
-	height:30px;
-	width:10px;
+	height:50px;
+	width:30px;
 	font-style:italic;
 }
 .borde {
@@ -16,7 +16,7 @@
   font-size:justify;
 }
 .espacio{
-  padding-left:15%;
+  padding-left:20%;
 }
 .espacio1{
   padding-left:5%;
