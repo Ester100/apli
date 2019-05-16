@@ -6,13 +6,13 @@
 	font-style:italic;
 }
 .borde {
-  background-color:#000080;
+  background-color:#FFFFFF;
 }
 .borde1{
-  background-color:#00FFFF;
+  background-color:#808080;
 }
 .t{
-  color:#808080;
+  color:#FF0000;
   font-size:justify;
 }
 .espacio{
@@ -27,6 +27,16 @@
 .A{
   color:#808080;
   font-size:justify;
+}
+.borde2 {
+  background-color:#800000;
+}
+.Texto2{
+  font-size:bolder;
+  height:50px;
+  width:30px;
+  font-style:italic;
+  color:solid red;
 }
 .dna {
   width: 10em;
