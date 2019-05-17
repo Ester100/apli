@@ -6,7 +6,7 @@
 	font-style:italic;
 }
 .borde {
-  background-color:#0000FF;
+  background-color:#E53B20;
 }
 .borde1{
   background-color:#808080;
@@ -29,20 +29,21 @@
   font-size:justify;
 }
 .borde2 {
-  background-color:red;
+  background-color:#630516;
 }
 .Texto2{
-  font-size:bolder;
+  color:white;
+  
   height:50px;
   width:30px;
   font-style:italic;
-  color:solid red;
+
 }
 .O {
   background-color:white;
 }
 .fondo1 {
-  background-color:#3FD2F2;
+  background-color:#117B84;
   }
 .fondo2 {
   background-color:black;
