@@ -199,16 +199,16 @@ body {
 } 
 
 .titulo {
-   font-size: 40px;
+   font-size: 30px;
    font-family: Lucida Console, Courier, monospace;
    color: rgb(217, 103, 29);
   
 }
 
 img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .memoria{
 
@@ -228,7 +228,7 @@ img {
 .carta {
   width: 14%;
   margin: 1% 1%;
-  height: 150px;
+  height: 50px;
   border-radius: 8px;
   float: left;
   cursor: pointer;
